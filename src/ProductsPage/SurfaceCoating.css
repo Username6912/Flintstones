@@ -1,0 +1,134 @@
+.surface-page {
+  background-color: #1d1d1b;
+  height: 300vh;
+  max-width: 100vw;
+  padding: 4%;
+}
+
+.main-text-surface {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10vw;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 30%;
+  left: -500%;
+  color: #ffffff;
+  transform: rotate(-90deg);
+  padding-bottom: 30px;
+  width: 400vh;
+}
+.heading-surface-1 {
+  position: relative;
+  top: 7%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+.category-surface-1 {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading-surface-2 {
+  position: relative;
+  top: 28%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+
+.heading-surface-3 {
+  position: relative;
+  top: 49%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+
+.heading-surface-4 {
+  position: relative;
+  top: 69%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+
+.heading-surface-5 {
+  position: relative;
+  top: 67%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+
+.heading-surface-6 {
+  position: relative;
+  top: 82%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  padding-top: 40px;
+}

@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+.portfolio-page {
+  background-color: #1d1d1b;
+  height: 100vh;
+  max-width: 100vw;
+  padding: 4%;
+}
+.quote-page {
+  background: url("../assets/images/Background.png");
+  background-color: #1d1d1b;
+  background-size: 120% 120%;
+  height: 50vh;
+
+  animation-name: background-shift-about-us;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+@keyframes background-shift-about-us {
+  0% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+
+  100% {
+    background-position-x: 0%;
+  }
+}
+
+.main-text-quote {
+  position: relative;
+  top: 40%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 30px;
+  transition: font-size 1s;
+  padding: 5%;
+}
+
+.main-text-portfolio {
+  position: relative;
+  top: 10%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 60px;
+  transition: font-size 1s;
+  padding: 5%;
+}
+.quote-body {
+  color: white;
+  position: relative;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 70%;
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.portfolio-card-row {
+  height: 100%;
+  cursor: pointer;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: auto;
+}
+.portfolio-card-1 {
+  height: 60vh;
+
+  margin-bottom: 3%;
+}
+.portfolio-text {
+  width: 425px;
+  height: 57px;
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 57px;
+  font-weight: bold;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  float: right;
+  color: rgb(201, 160, 48);
+}
+.portfolio-body {
+  float: right;
+  width: 406px;
+  height: 211px;
+  left: 53px;
+  top: 5681px;
+  padding-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 237.5%;
+  /* or 31px */
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+
+  /* White */
+  color: #ffffff;
+}
+
+.portfolio-text-left {
+  width: 425px;
+  height: 57px;
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 57px;
+  font-weight: bold;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  float: left;
+  color: rgb(201, 160, 48);
+}
+.portfolio-1 {
+  background: #353535;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.portfolio-box {
+  transition: all 1s;
+}
+.portfolio-box:hover {
+  background: rgb(201, 160, 48);
+}
+.portfolio-box:hover > .portfolio-body {
+  color: black;
+}
+.portfolio-box:hover > .portfolio-body-left {
+  color: black;
+}
+.portfolio-box:hover > .portfolio-text {
+  color: black;
+}
+.portfolio-box:hover > .portfolio-text-left {
+  color: black;
+}
+.portfolio-body-left {
+  float: left;
+  width: 406px;
+  height: 211px;
+  left: 53px;
+  top: 5681px;
+  padding-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 237.5%;
+  /* or 31px */
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+
+  /* White */
+  color: #ffffff;
+}
+.testimonial2 {
+  /* padding: 10%; */
+  background-color: var(--filler-color-1);
+  width: 80%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 20%;
+}
+
+.testimonial2 .about-slide-heading-section-op2 {
+  text-align: left;
+  /* width: 60%;
+  margin: auto; */
+}
+
+.testimonial-section-title {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: bold;
+  font-size: xxx-large;
+  padding-bottom: 3%;
+  padding-right: 10%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.testimonial-section-title:hover {
+  color: var(--secondary-color);
+  transition: 1s;
+}
+
+.testimonial-section-title::after {
+  content: "";
+  width: 0%;
+  height: 5px;
+  background: var(--primary-color);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.testimonial-section-title:hover::after {
+  width: 70%;
+}
+
+.test-element {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 5%;
+  /* box-shadow:20px 20px 10px 0px var(--primary-color); */
+}
+
+/* .test-element:hover {
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      transform: scale(1.03);
+  transition: 0.5s;
+} */
+
+.test-element p {
+  text-align: center;
+  font-size: 2vh;
+}
+
+.test-element h3 {
+  text-align: center;
+  font-size: 3vh;
+}
+
+.test-element .carousel img {
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.test-element .carousel-caption {
+  padding: 1%;
+  background: var(--background-filler-1);
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  text-align: justify;
+}

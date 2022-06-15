@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+.quote-page {
+  background: url("../assets/images/Background.png");
+  background-color: #1d1d1b;
+  background-size: 120% 120%;
+  height: 50vh;
+
+  animation-name: background-shift-about-us;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+@keyframes background-shift-about-us {
+  0% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+
+  100% {
+    background-position-x: 0%;
+  }
+}
+
+.main-text-quote-products {
+  position: relative;
+  top: 60%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 3vh;
+  transition: font-size 1s;
+  padding: 5%;
+}
+
+.quote-body {
+  color: white;
+  position: relative;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 70%;
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.question-text-mobile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 5vw;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.simple-text-mobile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 4%;
+}
+
+.catalouges-page-mobile {
+  background-color: #1d1d1b;
+  height: 150vh;
+  max-width: 100vw;
+  padding-top: 20px;
+}
+.catalouge-card-row-mobile {
+  height: 20vh;
+  cursor: pointer;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 100vw;
+}
+.main-text-catalouges {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  padding: 10%;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+.main-text-catalouges:hover {
+  font-size: 80px;
+}
+.catalouge-card-1-mobile {
+  height: 20vh;
+
+  margin-bottom: 3%;
+}
+.catalouge-text {
+  width: auto;
+  height: 57px;
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8vw;
+
+  font-weight: bold;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  float: right;
+  color: rgb(201, 160, 48);
+}
+.catalouge-body {
+  float: right;
+
+  height: 211px;
+  left: 53px;
+  top: 5681px;
+  padding-top: 50px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 237.5%;
+  /* or 31px */
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+  text-align: right;
+  /* White */
+  color: #ffffff;
+}
+
+.catalouge-text-left {
+  height: 57px;
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.7vw;
+
+  font-weight: bold;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  float: left;
+  color: rgb(201, 160, 48);
+}
+.catalouge-1 {
+  background: #353535;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.catalouge-2 {
+  background: #353535;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.catalouge-3 {
+  background: #353535;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.catalouge-4 {
+  background: #353535;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.catalouge-box {
+  transition: all 1s;
+}
+.catalouge-box:hover {
+  background: rgb(201, 160, 48);
+}
+.catalouge-box:hover > .catalouge-body {
+  color: black;
+}
+.catalouge-box:hover > .catalouge-body-left {
+  color: black;
+}
+.catalouge-box:hover > .catalouge-text {
+  color: black;
+}
+.catalouge-box:hover > .catalouge-text-left {
+  color: black;
+}
+.catalouge-body-left {
+  float: left;
+
+  height: 211px;
+  left: 53px;
+  top: 5681px;
+  padding-top: 50px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 237.5%;
+  /* or 31px */
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+  text-align: left;
+  /* White */
+  color: #ffffff;
+}
+.category-text {
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 60px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+}
+.product-main {
+  background: url("../assets/images/Product-Background.png");
+  background-color: #171714;
+  background-size: 100% 30%;
+  height: max-content;
+  animation-name: background-shift-category;
+  animation-duration: 150s;
+  animation-iteration-count: infinite;
+}
+@keyframes background-shift-category {
+  0% {
+    background-position-y: 0%;
+  }
+  50% {
+    background-position-y: 100%;
+  }
+
+  100% {
+    background-position-y: 0%;
+  }
+}
+.question-back {
+  background: url("../assets/images/Logo.svg");
+  background-size: 20%;
+  background-color: #1d1d1b;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.brick-main {
+  background: url("../assets/images/Brick_main.jpg");
+  background-size: 100% 100%;
+  filter: grayscale(100%);
+  transition: all 2s;
+}
+.brick-main:hover {
+  filter: grayscale(0%);
+}
+.natural-stone {
+  background: url("../assets/images/natural_stone.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 2s;
+}
+.natural-stone:hover {
+  filter: grayscale(0%);
+}
+.surface-coating {
+  background: url("../assets/images/surface_coating.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 2s;
+}
+.surface-coating:hover {
+  filter: grayscale(0%);
+}
+.engineered-stone {
+  background: url("../assets/images/engineered-stone.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 2s;
+}
+.engineered-stone:hover {
+  filter: grayscale(0%);
+}
+.murals {
+  background: url("../assets/images/murals.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 2s;
+}
+.murals:hover {
+  filter: grayscale(0%);
+}
+.catalogue-brick {
+  background: url("../assets/images/bricks_catalogue.jpg");
+  background-size: 100%;
+}
+.catalogue-concrete {
+  background: url("../assets/images/concrete_catalogue.jpg");
+  background-size: 100%;
+}
+
+.catalogue-engineered {
+  background: url("../assets/images/engineered_catalogue.jpg");
+  background-size: 100%;
+}
+
+.catalogue-flooring {
+  background: url("../assets/images/flooring_catalogue.jpg");
+  background-size: 100%;
+}
+
+.catalogue-metal {
+  background: url("../assets/images/metal_catalogue.jpg");
+  background-size: 100%;
+}
+
+.catalogue-stamped {
+  background: url("../assets/images/stamped_catalogue.jpg");
+  background-size: 100%;
+}
+
+.catalogue-natural {
+  background: url("../assets/images/natural_catalogue.jpg");
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+  [class*="category-text"] {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  [class*="main-text-about-us-2-s"] {
+    font-size: 3rem;
+  }
+  [class*="question-text-mobile"] {
+    line-height: 22px;
+  }
+  [class*="question-back"] {
+    height: 40vh;
+  }
+  [class*="catalogues-page-mobile"] {
+    padding-top: 10px;
+    height: 100vh;
+  }
+}

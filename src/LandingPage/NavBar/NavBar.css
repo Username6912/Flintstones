@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+.navbar-box {
+  height: 10vh;
+  width: 40%;
+  float: left;
+  padding-top: 3%;
+  padding-left: 3%;
+  cursor: pointer;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+}
+.navbar-text {
+  padding-top: 1.5%;
+  color: white;
+  margin-right: 2px;
+  transition: background 1s;
+}
+.navbar-text > a {
+  color: white;
+}
+.navbar-text:hover {
+  background: rgb(201, 160, 48);
+}
+.navbar-text > a:hover {
+  color: black;
+}

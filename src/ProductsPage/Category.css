@@ -1,0 +1,23 @@
+.category-page {
+  background-color: #1d1d1b;
+  height: 250vh;
+  max-width: 100vw;
+  padding: 4%;
+}
+
+.main-text-category {
+  position: absolute;
+  top: 60%;
+  left: -25%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 249px;
+  line-height: 301px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  transform: rotate(-90deg);
+}

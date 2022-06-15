@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+.categories-page {
+  background-color: #1d1d1b;
+  background-size: cover;
+  height: 230vh;
+}
+.main-text-categories {
+  position: relative;
+  top: 10%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+.main-text-categories:hover {
+  font-size: 80px;
+}
+.main-text-testimonial {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  z-index: 1;
+  transition: font-size 1s;
+}
+.main-text-testimonial:hover {
+  font-size: 80px;
+}
+.waves {
+  position: relative;
+  background: url("../../assets/images/Background.png");
+  background-color: #1d1d1b;
+  background-size: 120% 101%;
+  height: 100vh;
+  top: 5%;
+  z-index: 0;
+  animation-name: background-shift-categories;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+@keyframes background-shift-categories {
+  0% {
+    background-position-x: 100%;
+  }
+  50% {
+    background-position: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+.testimonial-body {
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 50%;
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: larger;
+}
+.category-cards {
+  position: relative;
+  height: 50vh;
+  top: 10%;
+  z-index: 5;
+}
+.body-section3 {
+  height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0px;
+  padding: 30px;
+}
+.card {
+  transition: all 1s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card-image {
+  height: 400%;
+  background: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+
+  [class*="main-text-categories"] {
+    font-size: 3rem;
+  }
+  [class*="categories-page"] {
+    height: 300vh;
+  }
+
+  [class*="category-cards"] {
+    height: 150vh;
+    padding-left: 2%;
+  }
+
+  [class*="main-text-testimonial"] {
+    font-size: 3rem;
+    top: 28%;
+  }
+  [class*="testimonial-body"] {
+    top: 35%;
+    font-size: 10px;
+    justify-content: center;
+  }
+}

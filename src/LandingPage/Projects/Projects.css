@@ -1,0 +1,188 @@
+.projects-page {
+  background-color: #1d1d1b;
+  height: 250vh;
+  max-width: 100vw;
+}
+.project-card-row {
+  height: 100%;
+  cursor: pointer;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  max-width: 100vw;
+}
+.main-text-projects {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  padding: 10%;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 75px;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+.main-text-projects:hover {
+  font-size: 80px;
+}
+.project-card-1 {
+  height: 40vh;
+
+  margin-bottom: 3%;
+}
+.project-text {
+  height: 57px;
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 57px;
+  font-weight: bold;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgb(201, 160, 48);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.project-body {
+  float: right;
+  width: 406px;
+  height: 211px;
+  left: 53px;
+  top: 5681px;
+  padding-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 237.5%;
+  /* or 31px */
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+
+  /* White */
+  color: #ffffff;
+}
+
+.project-text-left {
+  height: 57px;
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 57px;
+  font-weight: bold;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  position: absolute;
+  text-overflow: clip;
+}
+.project-1 {
+  background: url("../../assets/images/Project1.jpg");
+  background-size: 60%;
+  background-attachment: fixed;
+  background-position: right bottom;
+}
+.project-2 {
+  background: url("../../assets/images/Project2.jpg");
+  background-size: 50%;
+  background-attachment: fixed;
+}
+.project-3 {
+  background: url("../../assets/images/Project3.jpg");
+  background-size: 60%;
+  background-attachment: fixed;
+  background-position: right bottom;
+}
+.project-4 {
+  background: url("../../assets/images/Project4.jpg");
+  background-size: fit;
+  background-attachment: fixed;
+  background-position: left bottom;
+}
+.project-box {
+  transition: all 1s;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+.project-box:hover {
+  background: rgb(201, 160, 48);
+}
+.project-box:hover > .project-body {
+  color: black;
+}
+.project-box:hover > .project-body-left {
+  color: black;
+}
+.project-box:hover > .project-text {
+  color: black;
+}
+.project-box:hover > .project-text-left {
+  color: black;
+}
+.project-body-left {
+  float: left;
+  width: 406px;
+  height: 211px;
+  left: 53px;
+  top: 5681px;
+  padding-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 237.5%;
+  /* or 31px */
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+
+  /* White */
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+  [class*="projects-page"] {
+    height: 125vh;
+  }
+  [class*="main-text-projects"] {
+    font-size: 3rem;
+    width: 100%;
+    top: 12%;
+  }
+  [class*="main-text-projects:hover"] {
+    font-size: 3rem;
+    width: 100%;
+  }
+  [class*="project-card-row"] {
+    height: 20vh;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 0;
+  }
+  [class*="project-card-1"] {
+    height: 20vh;
+  }
+  [class*="project-text"] {
+    line-height: 20px;
+  }
+}

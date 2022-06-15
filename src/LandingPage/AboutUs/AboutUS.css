@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+.about-us-page {
+  background: url("../../assets/images/Background.png");
+  background-color: #1d1d1b;
+  background-size: 120% 101%;
+  height: 100vh;
+
+  animation-name: background-shift-about-us;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  z-index: 6;
+}
+@keyframes background-shift-about-us {
+  0% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+
+  100% {
+    background-position-x: 0%;
+  }
+}
+
+.main-text-about-us-2 {
+  position: relative;
+  top: 25%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  color: rgb(201, 160, 48);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 5rem;
+  line-height: 91px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: font-size 1s;
+}
+.main-text-about-us-2:hover {
+  font-size: 5.4rem;
+}
+.about-us-body {
+  color: white;
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 70%;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+  [class*="about-us-body-s"] {
+    font-size: 15px;
+  }
+  [class*="main-text-about-us-2-s"] {
+    font-size: 3rem;
+  }
+}
